@@ -10,9 +10,9 @@
 <body>
 <main>
   <h1>Split Play privacy policy</h1>
-  <p class="muted">Effective November 7, 2026</p>
+  <p class="muted">Effective November 16, 2026</p>
 
-  <p>This policy explains what information the Split Play Android app uses and what happens to it. In short, everything stays on your phone. Split Play doesn't collect, store, sell, or share your data, and it has no internet access.</p>
+  <p>This policy explains what information the Split Play Android app uses and what happens to it. In short, what Split Play reads about your media and devices stays on your phone. The app shows ads from Google AdMob, and the ad service collects some device information, as described in <a href="#ads">Ads</a>.</p>
 
   <h2>Information the app uses</h2>
   <p>To work, Split Play reads the following information on your phone. It uses this information only while it runs, to show it on screen and to control playback.</p>
@@ -24,21 +24,31 @@
   </ul>
 
   <h2>Information the app saves</h2>
-  <p>Split Play saves only your choices in the app: whether to keep the phone unlocked and the color of each card. These choices are stored on your phone. If you use Android backup, Android might include them in your device backup to your Google account, as it does for other apps.</p>
+  <p>Split Play saves only your choices in the app: whether to keep the phone unlocked, the color and order of the cards, the display size, whether the device control button is shown, and whether you bought ad removal. These choices are stored on your phone. If you use Android backup, Android might include them in your device backup to your Google account, as it does for other apps.</p>
+
+  <h2 id="ads">Ads</h2>
+  <p>Split Play shows a banner ad in portrait using the Google Mobile Ads SDK (Google AdMob). To choose and show ads, measure them, and prevent fraud, the SDK collects information such as your device's advertising ID, IP address, device and app information, and how you interact with ads. Google processes this information under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. To learn more, see <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from sites or apps that use its services</a>.</p>
+  <p>To reset your advertising ID or opt out of personalized ads, go to <strong>Settings &gt; Google &gt; All services &gt; Ads</strong> on your phone.</p>
+
+  <h2>Purchases</h2>
+  <p>You can remove ads with an in-app purchase. Google Play handles the purchase and your payment information. Split Play receives only whether you bought ad removal, so it can hide the ads.</p>
 
   <h2>Sharing</h2>
-  <p>Split Play doesn't send any information off your phone. The app doesn't request internet access, and it contains no analytics, advertising, or tracking code. No information is shared with the developer or with any other company.</p>
+  <p>Split Play doesn't send your media, playback, audio device, Bluetooth, or Separate app sound information off your phone, and it contains no analytics code. The developer doesn't receive any of your information. The only information that leaves your phone is what the Google Mobile Ads SDK collects to show ads, and what Google Play uses to process a purchase.</p>
 
   <h2>Permissions</h2>
   <ul>
     <li><strong>Notification access</strong>: to see and control other apps' media playback.</li>
     <li><strong>Nearby devices</strong> (<code>BLUETOOTH_CONNECT</code>): to show the connected Bluetooth device's name.</li>
     <li><strong>Change audio settings</strong> (<code>MODIFY_AUDIO_SETTINGS</code>): to change the volume of each output.</li>
+    <li><strong>Internet and network access</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>): to load ads. The Google Mobile Ads SDK adds these permissions.</li>
+    <li><strong>Advertising ID</strong> (<code>AD_ID</code>): to show and measure ads. The Google Mobile Ads SDK adds this permission.</li>
+    <li><strong>Google Play billing</strong> (<code>BILLING</code>): to let you buy ad removal.</li>
   </ul>
   <p>You can turn off notification access or the Nearby devices permission at any time in your phone's settings.</p>
 
   <h2>Children</h2>
-  <p>Split Play isn't directed at children and doesn't knowingly collect information from anyone.</p>
+  <p>Split Play isn't directed at children. It doesn't knowingly collect personal information from children, and it doesn't collect any personal information itself.</p>
 
   <h2>Changes to this policy</h2>
   <p>If this policy changes, the new version appears on this page with a new effective date.</p>
